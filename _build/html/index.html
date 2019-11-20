@@ -1,0 +1,674 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>CyVerse Tools, Services, and Reproducibility, Workshop &mdash; CyVerse Tools, Services, and Reproducibility, Workshop 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/cyverse.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="#" class="icon icon-home"> CyVerse Tools, Services, and Reproducibility, Workshop
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">CyVerse Tools, Services, and Reproducibility, Workshop</a></li>
+<li><a class="reference internal" href="#pre-workshop-setup">Pre-Workshop Setup</a></li>
+<li><a class="reference internal" href="#agenda-day-one-cyverse-tools-and-services">Agenda: Day One - CyVerse Tools and Services</a></li>
+<li><a class="reference internal" href="#agenda-day-two-reproducibility-with-cyverse">Agenda: Day Two - Reproducibility with CyVerse</a></li>
+<li><a class="reference internal" href="#host-prep-instructions">Host Prep Instructions</a></li>
+<li><a class="reference internal" href="#about-cyverse">About CyVerse</a></li>
+<li><a class="reference internal" href="#funding-and-citations">Funding and Citations</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">CyVerse Tools, Services, and Reproducibility, Workshop</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>CyVerse Tools, Services, and Reproducibility, Workshop</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p><a class="reference internal" href="_images/cyverse_rgb.png"><img alt="CyVerse logo" src="_images/cyverse_rgb.png" style="width: 500px; height: 100px;" /></a></p>
+<div class="section" id="cyverse-tools-services-and-reproducibility-workshop">
+<h1>CyVerse Tools, Services, and Reproducibility, Workshop<a class="headerlink" href="#cyverse-tools-services-and-reproducibility-workshop" title="Permalink to this headline">¶</a></h1>
+<p>Tools and services workshops cover the major platforms of the CyVerse
+cyberinfrastructure (<a class="reference external" href="http://www.cyverse.org/">http://www.cyverse.org/</a>) including:</p>
+<p><strong>Day One</strong></p>
+<p><em>Introduction to CyVerse</em></p>
+<p>This workshop covers CyVerse basics from data upload through to analysis and
+publication. Ultimately, we will use RNA-Seq as an example analysis. Topics
+include:</p>
+<ul class="simple">
+<li><strong>Data Store:</strong> Data storage, sharing, metadata management, and the Data Commons</li>
+<li><strong>Discovery Environment:</strong> A web-based, graphical interface to hundreds of
+bioinformatics tools</li>
+<li><strong>Atmosphere:</strong> Custom cloud computing for life science</li>
+<li><strong>RNA-Seq</strong>: A demonstration of data analysis, we will use the Kallisto/Sleuth
+workflow to analyze RNA-Seq data.</li>
+</ul>
+<p><em>Workshop Level</em></p>
+<p>This workshop focuses on beginning users with little to no previous bioinformatics
+experience. For the RNA-Seq analysis, some familiarity with R will be helpful</p>
+<hr class="docutils" />
+<p><strong>Day Two</strong></p>
+<p>Reproducible Science with CyVerse</p>
+<p>This workshop focuses on essentials for reproducible science. The emphasis is
+on how to manage software and code to generate research that can be more easily
+replicated and that complies with modern publication and funding agency
+standards. Topics include:</p>
+<ul class="simple">
+<li><strong>Implementing FAIR</strong>: Understanding and implementing the <a href="https://www.go-fair.org/fair-principles/" target="blank">FAIR</a> principles
+and <a href="https://softdev4research.github.io/recommendations/" target="blank">4OSS</a> recommendations.</li>
+<li><strong>Jupyter Notebooks</strong>: Using notebooks for reproducible analysis</li>
+<li><strong>Docker</strong>: Using, managing, and creating containers for software
+reproducibility</li>
+<li><strong>Tool Installation on CyVerse</strong>: Deploying applications on CyVerse</li>
+</ul>
+<p><em>Workshop Level</em></p>
+<p>This workshop is more suited for intermediate and advanced users interested in
+extending and customizing CyVerse capabilities, including installing their own
+tools. Familiarity of Linux/command line is highly recommended.</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="pre-workshop-setup">
+<h1>Pre-Workshop Setup<a class="headerlink" href="#pre-workshop-setup" title="Permalink to this headline">¶</a></h1>
+<p><strong>Minimum Setup Instructions Day One</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Prerequisite</th>
+<th class="head">Notes</th>
+<th class="head">Links</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Wi-Fi-enabled laptop (Mac or Linux recommended)</td>
+<td>You should be able to use CyVerse from any laptop using
+Windows/MacOS/Linux. We <strong>Strongly recommend</strong> having access to a laptop
+running Windows/MacOS. While you will be able to use CyVerse components
+from any laptop, some of the tool installations may work better with
+those operating systems. <strong>For the day two workshop</strong> If you are using
+Windows, you may wish to install <a href="https://itsfoss.com/install-bash-on-windows/" target="blank">Linux Bash for Windows</a>.
+We also <strong>strongly recommend</strong> Firefox or Chrome browser; <strong>We do not</strong>
+<strong>recommend Microsoft Edge Browser</strong>. It is helpful if you have
+administrative/install permissions on your laptop. <strong>Note:</strong> If
+specified, some workshops will be held in computer labs in which case a
+laptop is optional.</td>
+<td><ul class="first last simple">
+<li><a href="https://www.mozilla.org/en-US/firefox/new/" target="blank">Download FireFox</a></li>
+<li><a href="https://www.google.com/chrome/browser/" target="blank">Download Chrome</a></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>CyVerse Account</td>
+<td>Please ensure you have a CyVerse account and have <strong>verified</strong> your
+account by completing the verification steps in the email you got when
+you registered. You can <strong>test your account</strong> by logging
+into <a href="https://user.cyverse.org/" target="_blank">CyVerse User Portal</a>.</td>
+<td>Register for your CyVerse account at <a href="https://user.cyverse.org/" target="_blank">CyVerse User Portal</a>.
+Please register using an institutional email address (e.g.
+.edu/.gov/.org etc.).</td>
+</tr>
+<tr class="row-even"><td>Atmosphere Access</td>
+<td>After registering for a CyVerse account, you will need to request access
+to Atmosphere. Instructions for registering for access are <a class="reference external" href="https://cyverse-atmosphere-guide.readthedocs-hosted.com/en/latest/">here</a>
+(See note marked <strong>Important</strong>). <strong>Atmosphere Access may take 24 hours</strong>
+so please do this in advance. <strong>Verify your Atmosphere Access</strong> by
+logging in: <a href="https://atmo.cyverse.org" target="blank">Atmosphere</a>.
+For justification, you can indicate you are requesting access for a workshop.</td>
+<td>Request Atmosphere access at the CyVerse user portal <a href="https://user.cyverse.org/" target="_blank">CyVerse User Portal</a>.</td>
+</tr>
+<tr class="row-odd"><td>Cyberduck</td>
+<td>Cyberduck is a third-party tool for uploading/downloading data to CyVerse.
+Currently, this tool is available for Windows/MacOS only. You will need
+to download Cyberduck and the connection profile. We will go through
+configuration and installation at the workshop.</td>
+<td><a href="https://cyberduck.io/" target="blank">Download Cyberduck</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Minimum Setup Instructions Day Two</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Prerequisite</th>
+<th class="head">Notes</th>
+<th class="head">Links</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Docker</td>
+<td>Docker is a technology for running individual software tools in a
+reproducible environment, and on any machine. We request you install
+The <strong>Desktop, Community Edition</strong> of Docker if you are using
+Windows or MacOS. The <strong>Docker CE x86_64</strong> instructions are also
+available for Linux users. If you have installation problems, we
+will also have backup cloud instances available.</td>
+<td><a href="https://docs.docker.com/v17.09/engine/installation/" target="blank">Download Docker</a></td>
+</tr>
+<tr class="row-odd"><td>Git</td>
+<td>Git is a version control software.
+If you are using Linux or MacOS, you most likely already have Git.
+Windows users may need to install Git. You can find instructions
+for Git installation at the link.</td>
+<td><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="blank">Install Git</a></td>
+</tr>
+<tr class="row-even"><td>Text editor</td>
+<td>You will need to have a text editor suitable for working with code
+(<em>Not</em> Microsoft word, or other word processing software).</td>
+<td>We recommend installing <a href="https://atom.io/" target="blank">Atom</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Accounts</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Prerequisite</th>
+<th class="head">Notes</th>
+<th class="head">Links</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Github</td>
+<td>We will make use of Github for managing documentation, and also any
+software/scripts developed (E.g. Docker files).</td>
+<td>Register for a <a href="https://github.com/" target="blank">GitHub</a> account</td>
+</tr>
+<tr class="row-odd"><td>Dockerhub</td>
+<td>Dockerhub is an online repository for the sharing and management of
+Docker images.</td>
+<td>Register for a <a href="https://hub.docker.com/" target="blank">Dockerhub</a> account</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Optional Download Extras</strong></p>
+<p>These are some extra downloads that aren’t required for the workshop, but which
+provide some options for functionalities we will cover.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Tool</th>
+<th class="head">Notes</th>
+<th class="head">Link</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>PuTTY (windows only)</td>
+<td>PuTTY allows SSH connection to a remote machine, and is designed for
+Windows users who do not have a Mac/Linux terminal.</td>
+<td><a class="reference external" href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">Download PuTTY</a></td>
+</tr>
+<tr class="row-odd"><td>iCommands</td>
+<td>iCommands are third-party software for command-line connection to the
+CyVerse Data Store.</td>
+<td>Download and installation instructions available at <a class="reference external" href="https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step2.html">CyVerse Learning Center</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class="docutils" />
+<div class="section" id="agenda-day-one-cyverse-tools-and-services">
+<h1>Agenda: Day One - CyVerse Tools and Services<a class="headerlink" href="#agenda-day-one-cyverse-tools-and-services" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><ul class="simple">
+<li>Prior to the workshop, please take the <a class="reference external" href="https://www.surveymonkey.com/r/ToolsServices_pre">Pre-workshop Survey</a>.</li>
+</ul>
+</div></blockquote>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Time</th>
+<th class="head">Topic/Activity</th>
+<th class="head">Slides</th>
+<th class="head">Guides</th>
+<th class="head">Notes/Links</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>9:30-10:00</td>
+<td>Introduction to CyVerse</td>
+<td><a class="reference external" href="https://github.com/CyVerse-learning-materials/cyverse_tools_and_services_workshop/raw/master/slides/tsw_intro.pptx">slides</a></td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>10:00-10:30</td>
+<td>Data Management Basics and Data upload with Cyberduck</td>
+<td><a class="reference external" href="https://github.com/CyVerse-learning-materials/cyverse_tools_and_services_workshop/raw/master/slides/data_store.pptx">slides</a></td>
+<td><a class="reference external" href="https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/">guide</a></td>
+<td><a href="https://cyberduck.io/" target="blank">Download Cyberduck</a></td>
+</tr>
+<tr class="row-even"><td>10:30-10:45</td>
+<td>Break</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>10:45-11:00</td>
+<td>Data Sharing within CyVerse</td>
+<td>&#160;</td>
+<td><a class="reference external" href="https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step4.html">guide</a></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>11:00-12:00</td>
+<td>CyVerse Discovery Environment walkthrough and exercises</td>
+<td><a class="reference external" href="https://github.com/CyVerse-learning-materials/cyverse_tools_and_services_workshop/raw/master/slides/discovery_enviornment.pptx">slides</a></td>
+<td><a class="reference external" href="http://learning.cyverse.org/projects/cyverse-discovery-environment-guide/">guide</a></td>
+<td><ul class="first last simple">
+<li><a class="reference external" href="https://cyverse-fastqc-quickstart.readthedocs-hosted.com/en/latest/">FastQC Exercise</a></li>
+<li><a class="reference external" href="https://cyverse-trimmomatic-quickstart.readthedocs-hosted.com/en/latest/">Trimmomatic Exercise</a></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>12:00-01:00</td>
+<td>Lunch</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>01:00-01:45</td>
+<td>Cloud Computing with CyVerse Atmosphere</td>
+<td><a class="reference external" href="https://github.com/CyVerse-learning-materials/cyverse_tools_and_services_workshop/raw/master/slides/atmosphere.pptx">slides</a></td>
+<td><a class="reference external" href="https://cyverse-atmosphere-guide.readthedocs-hosted.com/en/latest/">guide</a></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>01:45-02:15</td>
+<td>Introduction to New RNA-Seq Methods</td>
+<td><a class="reference external" href="https://cyverse-kallisto-tutorial.readthedocs-hosted.com/en/latest/">Kallisto Tutorial</a></td>
+<td>&#160;</td>
+<td><ul class="first last simple">
+<li><a class="reference external" href="https://wiki.cyverse.org/wiki/download/attachments/36470870/Best_Practices_RNA_Seq_ConesaEtal_2016.pdf?version=1&amp;modificationDate=1499770226000&amp;api=v2">RNA-Seq Best Practicies</a></li>
+<li><a class="reference external" href="https://www.nature.com/nbt/journal/v34/n5/full/nbt.3519.html">Kallisto Paper</a></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>02:15-02:30</td>
+<td>Break</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>03:00-04:30</td>
+<td>Guided Sleuth Tutorial / Guided Tuxedo 2.0 Tutorial</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td><ul class="first last simple">
+<li><a class="reference external" href="https://cyverse-kallisto-tutorial.readthedocs-hosted.com/en/latest/step4.html">Sleuth Tutorial</a></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>04:30</td>
+<td>Wrap up/conclusion</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td><a class="reference external" href="https://www.surveymonkey.com/r/ToolsServices_post">Post Survey</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class="docutils" />
+<div class="section" id="agenda-day-two-reproducibility-with-cyverse">
+<h1>Agenda: Day Two - Reproducibility with CyVerse<a class="headerlink" href="#agenda-day-two-reproducibility-with-cyverse" title="Permalink to this headline">¶</a></h1>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Time</th>
+<th class="head">Topic/Activity</th>
+<th class="head">Slides</th>
+<th class="head">Guides</th>
+<th class="head">Notes/Links</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>9:30-10:00</td>
+<td>Introduction to Open Science principles</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td><ul class="first last simple">
+<li><a href="https://www.go-fair.org/fair-principles/" target="blank">FAIR</a></li>
+<li><a href="https://softdev4research.github.io/recommendations/" target="blank">4OSS</a></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>10:00-10:30</td>
+<td>Metadata Management  with CyVerse</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>10:30-10:45</td>
+<td>Break</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>10:45-11:30</td>
+<td>Introduction to Jupyter</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>11:30-12:00</td>
+<td>Building workflows with SnakeMake</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>12:00-01:00</td>
+<td>Lunch</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>01:00-02:00</td>
+<td>Introduction to Docker</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>02:00-03:00</td>
+<td>Managing and customizing Docker containers</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>02:15-02:30</td>
+<td>Break</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>03:00-04:30</td>
+<td>Deploying tools on CyVerse</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>04:30</td>
+<td>Wrap up/conclusion</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class="docutils" />
+<div class="section" id="host-prep-instructions">
+<h1>Host Prep Instructions<a class="headerlink" href="#host-prep-instructions" title="Permalink to this headline">¶</a></h1>
+<p>These instructions are reminders for those hosting a CyVerse Workshop with us or
+on their own.</p>
+<p><strong>Internet and Wi-Fi</strong></p>
+<p>Good Wi-Fi is essential to this internet-based workshop. We would advise
+checking with your local IT on the ability to connect 20-40 laptops in the room
+you are using. Hopefully, you or others have experience on using the space you
+have reserved. In addition, please consider that not every attendee may be local
+(including your CyVerse trainer) and so restriction-free/guest public Wi-Fi
+access should be available.</p>
+<blockquote>
+<div><div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p>On Guest/public Wi-Fi it is not uncommon for certain ports needed to
+communicate with CyVerse services may be blocked. In our experience, IT
+is usually willing to open these ports (or provide temporary guest
+login) for the duration of the workshop. The following ports are needed
+for the workshop:</p>
+<ul class="last simple">
+<li><strong>iRODS/Data Store:</strong> 1247 and 20000-20399</li>
+<li><strong>SSH:</strong> 22</li>
+<li><strong>VNC:</strong> 5900-5910</li>
+<li><strong>RStudio:</strong> 8787</li>
+<li><strong>Jupyter:</strong> 8000</li>
+</ul>
+</div>
+</div></blockquote>
+<p>Your CyVerse instructor will test connection prior to the workshop, or work with
+you to test connection to services.</p>
+<p><strong>Room Spaces/Computer labs</strong></p>
+<p>Our workshops are one to several days in length. A good space will have:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Windows (with shades), ventilation and reasonably comfortable chairs</li>
+<li>Sufficient power strips or power access for laptop users.</li>
+<li>One or more large projection screens with bright projectors</li>
+<li>Accommodation for attendees with mobility/hearing/vision difficulties</li>
+</ul>
+<p>If using a Computer Lab, we recommend having the Prerequisite and Download Extras
+installed if possible.</p>
+</div></blockquote>
+</div>
+<div class="section" id="about-cyverse">
+<h1>About CyVerse<a class="headerlink" href="#about-cyverse" title="Permalink to this headline">¶</a></h1>
+<p><strong>CyVerse Vision:</strong> Transforming science through data-driven discovery.</p>
+<p><strong>CyVerse Mission:</strong> Design, deploy, and expand a national
+cyberinfrastructure for life sciences research and train scientists in
+its use. CyVerse provides life scientists with powerful computational
+infrastructure to handle huge datasets and complex analyses, thus
+enabling data-driven discovery. Our powerful extensible platforms
+provide data storage, bioinformatics tools, image analyses, cloud
+services, APIs, and more.</p>
+<p>While originally created with the name iPlant Collaborative to serve
+U.S. plant science communities, CyVerse cyberinfrastructure is germane
+to all life sciences disciplines and works equally well on data from
+plants, animals, or microbes. By democratizing access to supercomputing
+capabilities, we provide a crucial resource to enable scientists to find
+solutions for the future. CyVerse is of, by, and for the community, and
+community-driven needs shape our mission. We rely on your feedback to provide
+the infrastructure you need most to advance your science, development, and
+educational agenda.</p>
+<p><strong>CyVerse Homepage:</strong> <a class="reference external" href="http://www.cyverse.org">http://www.cyverse.org</a></p>
+</div>
+<div class="section" id="funding-and-citations">
+<h1>Funding and Citations<a class="headerlink" href="#funding-and-citations" title="Permalink to this headline">¶</a></h1>
+<p>CyVerse is funded entirely by the National Science Foundation  under Award
+Numbers DBI-0735191, DBI-1265383, and DBI-1743442.</p>
+<p>Please cite CyVerse appropriately when you make use of our resources,
+<a class="reference external" href="http://www.cyverse.org/acknowledge-cite-cyverse">CyVerse citation
+policy</a></p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, CyVerse
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/cyverse.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
