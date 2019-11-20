@@ -1,40 +1,63 @@
 |CyVerse logo|
 
-CyVerse Tools and Services Workshop
-------------------------------------
+CyVerse Tools, Services, and Reproducibility, Workshop
+------------------------------------------------------------
 
 Tools and services workshops cover the major platforms of the CyVerse
 cyberinfrastructure (http://www.cyverse.org/) including:
+
+
+**Day One**
+
+*Introduction to CyVerse*
+
+This workshop covers CyVerse basics from data upload through to analysis and
+publication. Ultimately, we will use RNA-Seq as an example analysis. Topics
+include:
 
 - **Data Store:** Data storage, sharing, metadata management, and the Data Commons
 - **Discovery Environment:** A web-based, graphical interface to hundreds of
   bioinformatics tools
 - **Atmosphere:** Custom cloud computing for life science
+- **RNA-Seq**: A demonstration of data analysis, we will use the Kallisto/Sleuth
+  workflow to analyze RNA-Seq data.
 
-Workshop topics build progressively along a ‘path’ most researchers will need to
-take from data upload through to analysis and publication, cluminating in an
-illustrative science use case (commonly RNA-Seq).
+*Workshop Level*
 
-**Who Should Attend**
+This workshop focuses on beginning users with little to no previous bioinformatics
+experience. For the RNA-Seq analysis, some familiarity with R will be helpful
 
-Faculty, Postdocs, graduate students who use and analyze biological data of all
-types (genomics, image data, from animals, plants, etc.).
+----
 
-**Workshop Level**
+**Day Two**
 
-This workshop focused on beginning users with little to no previous bioinformatics
-experience.
+Reproducible Science with CyVerse
 
-Intermeidate and advanced users attend to better understand CyVerse capabilities
-and resources, including installing their own tools and extending these analyses
-into Cloud and HPC.
+This workshop focuses on essentials for reproducible science. The emphasis is
+on how to manage software and code to generate research that can be more easily
+replicated and that complies with modern publication and funding agency
+standards. Topics include:
+
+- **Implementing FAIR**: Understanding and implementing the |FAIR| principles
+  and |4OSS| recommendations.
+- **Jupyter Notebooks**: Using notebooks for reproducible analysis
+- **Docker**: Using, managing, and creating containers for software
+  reproducibility
+- **Tool Installation on CyVerse**: Deploying applications on CyVerse
+
+*Workshop Level*
+
+This workshop is more suited for intermediate and advanced users interested in
+extending and customizing CyVerse capabilities, including installing their own
+tools. Familiarity of Linux/command line is highly recommended.
+
 
 -----
 
 Pre-Workshop Setup
 ---------------------
 
-**Minimum Setup Instructions**
+**Minimum Setup Instructions Day One**
 
 .. list-table::
     :header-rows: 1
@@ -42,35 +65,86 @@ Pre-Workshop Setup
     * - Prerequisite
       - Notes
       - Links
-    * - Wi-Fi-enabled laptop
-      - You should be able to use CyVerse from any laptop using Windows/MacOS/Linux.
-        We **strongly recommend** Firefox or Chrome browser; **We do not recommend**
-        **Microsoft Edge Browser**. It is helpful if
-        you have administrative/install permissions on your laptop. **Note:** If
-        specified, some workshops will be held in computer labs in which case
-        a laptop is optional.
-      - - `Download FireFox <https://www.mozilla.org/en-US/firefox/new/?scene=2>`_
-        - `Download Chrome <https://www.google.com/chrome/browser/>`_
+    * - Wi-Fi-enabled laptop (Mac or Linux recommended)
+      - You should be able to use CyVerse from any laptop using
+        Windows/MacOS/Linux. We **Strongly recommend** having access to a laptop
+        running Windows/MacOS. While you will be able to use CyVerse components
+        from any laptop, some of the tool installations may work better with
+        those operating systems. **For the day two workshop** If you are using
+        Windows, you may wish to install |Linux Bash for Windows|.
+        We also **strongly recommend** Firefox or Chrome browser; **We do not**
+        **recommend Microsoft Edge Browser**. It is helpful if you have
+        administrative/install permissions on your laptop. **Note:** If
+        specified, some workshops will be held in computer labs in which case a
+        laptop is optional.
+      - - |Download FireFox|
+        - |Download Chrome|
     * - CyVerse Account
-      - Please ensure you have a CyVerse account and have **verfied** your account
-        by completing the verification steps in the email you got when you registered.
-        You can **test your account** by logging into `http://user.cyverse.org/ <http://user.cyverse.org/>`_.
-      - Register for your cyverse account at `http://user.cyverse.org/`_. Please
-        register using an institutional email address (e.g. .edu/.gov/.org etc.).
+      - Please ensure you have a CyVerse account and have **verified** your
+        account by completing the verification steps in the email you got when
+        you registered. You can **test your account** by logging
+        into |CyVerse User Portal|.
+      - Register for your CyVerse account at |CyVerse User Portal|.
+        Please register using an institutional email address (e.g.
+        .edu/.gov/.org etc.).
     * - Atmosphere Access
       - After registering for a CyVerse account, you will need to request access
         to Atmosphere. Instructions for registering for access are `here <https://cyverse-atmosphere-guide.readthedocs-hosted.com/en/latest/>`_
         (See note marked **Important**). **Atmosphere Access may take 24 hours**
-        so please do this in advance. **Verify your Atmosphere Access** by `logging in here <https://atmo.cyverse.org/>`_.
+        so please do this in advance. **Verify your Atmosphere Access** by
+        logging in: |Atmosphere|.
         For justification, you can indicate you are requesting access for a workshop.
-      - Request Atmosphere access at the CyVerse user portal `http://user.cyverse.org/`_
+      - Request Atmosphere access at the CyVerse user portal |CyVerse User Portal|.
     * - Cyberduck
       - Cyberduck is a third-party tool for uploading/downloading data to CyVerse.
         Currently, this tool is available for Windows/MacOS only. You will need
         to download Cyberduck and the connection profile. We will go through
         configuration and installation at the workshop.
-      - - `Download Cyberduck <https://cyberduck.io/>`_
-        - `Download CyVerse Cyberduck connection profile <https://wiki.cyverse.org/wiki/download/attachments/18188197/iPlant%20Data%20Store.cyberduckprofile?version=1&modificationDate=1436557522000&api=v2>`_
+      - |Download Cyberduck|
+
+**Minimum Setup Instructions Day Two**
+
+.. list-table::
+    :header-rows: 1
+
+    * - Prerequisite
+      - Notes
+      - Links
+    * - Docker
+      - Docker is a technology for running individual software tools in a
+        reproducible environment, and on any machine. We request you install
+        The **Desktop, Community Edition** of Docker if you are using
+        Windows or MacOS. The **Docker CE x86_64** instructions are also
+        available for Linux users. If you have installation problems, we
+        will also have backup cloud instances available.
+      - |Download Docker|
+    * - Git
+      - Git is a version control software.
+        If you are using Linux or MacOS, you most likely already have Git.
+        Windows users may need to install Git. You can find instructions
+        for Git installation at the link.
+      - |Install Git|
+    * - Text editor
+      - You will need to have a text editor suitable for working with code
+        (*Not* Microsoft word, or other word processing software).
+      - We recommend installing |Atom|
+
+**Accounts**
+
+.. list-table::
+    :header-rows: 1
+    * - Prerequisite
+      - Notes
+      - Links
+    * - Github
+      - We will make use of Github for managing documentation, and also any
+        software/scripts developed (E.g. Docker files).
+      - Register for a |GitHub| account
+    * - Dockerhub
+      - Dockerhub is an online repository for the sharing and management of
+        Docker images.
+      - Register for a |Dockerhub| account
+
 
 
 **Optional Download Extras**
@@ -84,10 +158,6 @@ provide some options for functionalities we will cover.
     * - Tool
       - Notes
       - Link
-    * - VNC Viewer
-      - This tool enables connection to a remote Atmosphere Desktop. No installation
-        or configuration is needed.
-      - `Download VNC Viewer <https://www.realvnc.com/en/connect/download/viewer/>`_
     * - PuTTY (windows only)
       - PuTTY allows SSH connection to a remote machine, and is designed for
         Windows users who do not have a Mac/Linux terminal.
@@ -97,10 +167,6 @@ provide some options for functionalities we will cover.
         CyVerse Data Store.
       - Download and installation instructions available at `CyVerse Learning Center <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step2.html>`__
 
-
-
-
-
 ----
 
 Agenda
@@ -108,6 +174,7 @@ Agenda
 
  - Prior to the workshop, please take the `Pre-workshop Survey <https://www.surveymonkey.com/r/ToolsServices_pre>`_.
 
+**Day One: CyVerse Tools and Services**
 
 .. list-table::
     :header-rows: 1
@@ -165,16 +232,87 @@ Agenda
       -
       -
       -
-    * - 03:00-04:45
+    * - 03:00-04:30
       - Guided Sleuth Tutorial / Guided Tuxedo 2.0 Tutorial
       -
       -
       - - `Sleuth Tutorial <https://cyverse-kallisto-tutorial.readthedocs-hosted.com/en/latest/step4.html>`_
-    * - 04:45-05:00
+    * - 04:30
       - Wrap up/conclusion
       -
       -
       - `Post Survey <https://www.surveymonkey.com/r/ToolsServices_post>`_
+
+-----
+
+**Day Two: Reproducibility with CyVerse:
+
+
+.. list-table::
+    :header-rows: 1
+
+    * - Time
+      - Topic/Activity
+      - Slides
+      - Guides
+      - Notes/Links
+    * - 9:30-10:00
+      - Introduction to Open Science principles
+      -
+      -
+      - - |FAIR|
+        - |4OSS|
+    * - 10:00-10:30
+      - Metadata Management  with CyVerse
+      -
+      -
+      -
+    * - 10:30-10:45
+      - Break
+      -
+      -
+      -
+    * - 10:45-11:30
+      - Introduction to Jupyter
+      -
+      -
+      -
+    * - 11:30-12:00
+      - Building workflows with SnakeMake
+      -
+      -
+      -
+    * - 12:00-01:00
+      - Lunch
+      -
+      -
+      -
+    * - 01:00-02:00
+      - Introduction to Docker
+      -
+      -
+      -
+    * - 02:00-03:00
+      - Managing and customizing Docker containers
+      -
+      -
+      -
+    * - 02:15-02:30
+      - Break
+      -
+      -
+      -
+    * - 03:00-04:30
+      - Deploying tools on CyVerse
+      -
+      -
+      -
+    * - 04:30
+      - Wrap up/conclusion
+      -
+      -
+      - 
+
 
 -----
 
