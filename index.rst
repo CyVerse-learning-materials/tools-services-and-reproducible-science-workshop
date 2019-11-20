@@ -17,17 +17,19 @@ This workshop covers CyVerse basics from data upload through to analysis and
 publication. Ultimately, we will use RNA-Seq as an example analysis. Topics
 include:
 
-- **Data Store:** Data storage, sharing, metadata management, and the Data Commons
+- **Data Store:** Data storage, sharing, metadata management, and the Data
+  Commons
 - **Discovery Environment:** A web-based, graphical interface to hundreds of
   bioinformatics tools
 - **Atmosphere:** Custom cloud computing for life science
 - **RNA-Seq**: A demonstration of data analysis, we will use the Kallisto/Sleuth
-  workflow to analyze RNA-Seq data.
+  workflow to analyze RNA-Seq data
 
 *Workshop Level*
 
-This workshop focuses on beginning users with little to no previous bioinformatics
-experience. For the RNA-Seq analysis, some familiarity with R will be helpful
+This workshop focuses on beginning users with little to no previous
+bioinformatics experience. For the RNA-Seq analysis, some familiarity with R
+will be helpful.
 
 ----
 
@@ -41,7 +43,7 @@ replicated and that complies with modern publication and funding agency
 standards. Topics include:
 
 - **Implementing FAIR**: Understanding and implementing the |FAIR| principles
-  and |4OSS| recommendations.
+  and |4OSS| recommendations
 - **Jupyter Notebooks**: Using notebooks for reproducible analysis
 - **Docker**: Using, managing, and creating containers for software
   reproducibility
@@ -85,16 +87,16 @@ Pre-Workshop Setup
       - Please ensure you have a CyVerse account and have **verified** your
         account by completing the verification steps in the email you got when
         you registered. You can **test your account** by logging
-        into |CyVerse User Portal|.
-      - Register for your CyVerse account at |CyVerse User Portal|.
+        into |CyVerse User Portal|
+      - Register for your CyVerse account at |CyVerse User Portal|
         Please register using an institutional email address (e.g.
-        .edu/.gov/.org etc.).
+        .edu/.gov/.org etc.)
     * - Atmosphere Access
       - After registering for a CyVerse account, you will need to request access
         to Atmosphere. Instructions for registering for access are `here <https://cyverse-atmosphere-guide.readthedocs-hosted.com/en/latest/>`_
         (See note marked **Important**). **Atmosphere Access may take 24 hours**
         so please do this in advance. **Verify your Atmosphere Access** by
-        logging in: |Atmosphere|.
+        logging in: |Atmosphere|
         For justification, you can indicate you are requesting access for a workshop.
       - Request Atmosphere access at the CyVerse user portal |CyVerse User Portal|.
     * - Cyberduck
@@ -129,13 +131,13 @@ Pre-Workshop Setup
     * - Text editor
       - You will need to have a text editor suitable for working with code
         (*Not* Microsoft word, or other word processing software).
-      - We recommend installing |Atom|
+      - We recommend |Atom|
 
 **Accounts**
 
 .. list-table::
     :header-rows: 1
-    
+
     * - Prerequisite
       - Notes
       - Links
