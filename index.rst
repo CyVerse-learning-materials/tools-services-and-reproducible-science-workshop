@@ -247,8 +247,8 @@ Agenda: Day One - CyVerse Tools and Services
 
 -----
 
-Agenda: Day Two - Reproducibility with CyVerse
-------------------------------------------------
+Agenda: Day Two - Reproducible research with CyVerse
+-----------------------------------------------------
 
 .. list-table::
     :header-rows: 1
@@ -265,7 +265,7 @@ Agenda: Day Two - Reproducibility with CyVerse
       - - |FAIR|
         - |4OSS|
     * - 10:00-10:30
-      - Metadata Management  with CyVerse
+      - Metadata Management with CyVerse
       -
       -
       -
