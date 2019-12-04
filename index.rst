@@ -179,6 +179,12 @@ provide some options for functionalities we will cover.
       - iCommands are third-party software for command-line connection to the
         CyVerse Data Store.
       - Download and installation instructions available at `CyVerse Learning Center <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step2.html>`__
+----
+
+Etherpad
+----------
+
+We will use the Etherpad at this link to share at the workshop: |Etherpad|
 
 ----
 
@@ -414,3 +420,10 @@ policy <http://www.cyverse.org/acknowledge-cite-cyverse>`__
 .. |platform_stack| image:: ./img/cyverse_platform_stack.png
   :width: 750
   :height: 700
+
+.. |Etherpad| raw:: html
+
+   <a href="http://128.196.142.113:9001/p/upr" target="blank">Etherpad</a>
+
+
+http://128.196.142.113:9001/p/upr
