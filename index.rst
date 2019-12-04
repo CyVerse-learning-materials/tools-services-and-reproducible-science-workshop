@@ -132,6 +132,14 @@ Pre-Workshop Setup
       - You will need to have a text editor suitable for working with code
         (*Not* Microsoft word, or other word processing software).
       - We recommend |Atom|
+    * - Jupyter lab
+      - Jupyter is a popular data science workbench for reproducible analysis
+      - |Install Juypyter lab|
+    * - Windows Linux Subsystem (Windows PC only)
+      - This enables using Linux on Windows 10 PCs
+      - We suggested installing the |Windows Linux Subsystem| if you have
+        a Windows 10 PC. Following the directions we also suggest
+        installing  an Ubuntu 18.04 LTS distribution.
 
 **Accounts**
 
@@ -189,12 +197,12 @@ Agenda: Day One - CyVerse Tools and Services
       - Notes/Links
     * - 9:30-10:00
       - Introduction to CyVerse
-      - `slides <https://github.com/CyVerse-learning-materials/cyverse_tools_and_services_workshop/raw/master/slides/tsw_intro.pptx>`__
+      - `slides <https://de.cyverse.org/dl/d/E748590C-C76B-4FD3-8FEE-ECE677FDF7B4/cyverse_tsw_intro.pptx>`__
       -
       -
     * - 10:00-10:30
       - Data Management Basics and Data upload with Cyberduck
-      - `slides <https://github.com/CyVerse-learning-materials/cyverse_tools_and_services_workshop/raw/master/slides/data_store.pptx>`__
+      - `slides <https://de.cyverse.org/dl/d/0A55BF71-BDE4-4697-8D64-C932C94C044B/cyverse_datastore_intro.pptx>`__
       - `guide <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/>`__
       - |Download Cyberduck|
     * - 10:30-10:45
@@ -209,7 +217,7 @@ Agenda: Day One - CyVerse Tools and Services
       -
     * - 11:00-12:00
       - CyVerse Discovery Environment walkthrough and exercises
-      - `slides <https://github.com/CyVerse-learning-materials/cyverse_tools_and_services_workshop/raw/master/slides/discovery_enviornment.pptx>`__
+      - `slides <https://de.cyverse.org/dl/d/6637748F-C2FD-4891-B0FB-2B099D5488EE/cyverse_discoveryenviornment_intro.pptx>`__
       - `guide <http://learning.cyverse.org/projects/cyverse-discovery-environment-guide/>`__
       - - `FastQC Exercise <https://cyverse-fastqc-quickstart.readthedocs-hosted.com/en/latest/>`_
         - `Trimmomatic Exercise <https://cyverse-trimmomatic-quickstart.readthedocs-hosted.com/en/latest/>`_
@@ -220,7 +228,7 @@ Agenda: Day One - CyVerse Tools and Services
       -
     * - 01:00-01:45
       - Cloud Computing with CyVerse Atmosphere
-      - `slides <https://github.com/CyVerse-learning-materials/cyverse_tools_and_services_workshop/raw/master/slides/atmosphere.pptx>`__
+      - `slides <https://de.cyverse.org/dl/d/410C1593-2949-4533-B102-5AA4DD411BE6/cyverse_atmosphere_intro.pptx>`__
       - `guide <https://cyverse-atmosphere-guide.readthedocs-hosted.com/en/latest/>`__
       -
     * - 01:45-02:15
@@ -262,13 +270,14 @@ Agenda: Day Two - Reproducible research with CyVerse
       - Introduction to Open Science principles
       -
       -
-      - - |FAIR|
+      - - |Data Management Overview|
+        - |FAIR|
         - |4OSS|
     * - 10:00-10:30
       - Metadata Management with CyVerse
       -
       -
-      -
+      - We will follow the |Associating Metadata| guide
     * - 10:30-10:45
       - Break
       -
@@ -278,12 +287,13 @@ Agenda: Day Two - Reproducible research with CyVerse
       - Introduction to Jupyter
       -
       -
-      -
+      - - |Dataquest Jupyter|
+        - |Markdown Cheatsheet|
     * - 11:30-12:00
-      - Building workflows with SnakeMake
+      - Starting a project with Docker
       -
       -
-      -
+      - - |Introduction to Git and Version Control|
     * - 12:00-01:00
       - Lunch
       -
@@ -295,7 +305,7 @@ Agenda: Day Two - Reproducible research with CyVerse
       -
       -
     * - 02:00-03:00
-      - Managing and customizing Docker containers
+      - Building with Snakemake
       -
       -
       -

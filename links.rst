@@ -46,9 +46,9 @@
 
    <a href="https://pypi.org/project/restview/" target="blank">RestView</a>
 
-.. |CyVerse Austria User Portal| raw:: html
+.. |Windows Linux Subsystem| raw:: html
 
-   <a href="https://user.cyverse.tugraz.at/" target="blank">CyVerse Austria User Portal</a>
+   <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10" target="blank">Windows Linux Subsystem</a>
 
 .. |CyVerse Discovery Environment| raw:: html
 
@@ -189,3 +189,19 @@
 .. |4OSS| raw:: html
 
    <a href="https://softdev4research.github.io/recommendations/" target="blank">4OSS</a>
+
+.. |Install Juypyter lab| raw:: html
+
+   <a href="https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html" target="blank">Install Juypyter lab</a>
+
+.. |Dataquest Jupyter| raw:: html
+
+   <a href="https://www.dataquest.io/blog/jupyter-notebook-tutorial/" target="blank">Dataquest Jupyter</a>
+
+.. |Markdown Cheatsheet| raw:: html
+
+   <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="blank">Markdown Cheatsheet</a>
+
+.. |Introduction to Git and Version Control| raw:: html
+
+   <a href="https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/version_control.html" target="blank">Introduction to Git and Version Control</a>
