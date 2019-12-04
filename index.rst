@@ -185,6 +185,8 @@ Etherpad
 ----------
 
 We will use the Etherpad at this link to share at the workshop: |Etherpad|
+Let's try this |Google Doc|
+
 
 ----
 
@@ -426,4 +428,7 @@ policy <http://www.cyverse.org/acknowledge-cite-cyverse>`__
    <a href="http://128.196.142.113:9001/p/upr" target="blank">Etherpad</a>
 
 
-http://128.196.142.113:9001/p/upr
+.. |Google Doc| raw:: html
+
+   <a href="https://docs.google.com/document/d/1jjKPzfZ9FDsTJK0PUhERDb5Ctswb9EwMKLpCaQQe6dQ/edit?usp=sharing
+" target="blank">Google Doc</a>
