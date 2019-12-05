@@ -293,10 +293,11 @@ Agenda: Day Two - Reproducible research with CyVerse
       -
       -
     * - 10:45-11:30
-      - Introduction to Jupyter
+      - Reproducibility Tutorial
       -
       -
-      - - |Dataquest Jupyter|
+      - - |Reproducibility tutorial|
+        - |Dataquest Jupyter|
         - |Markdown Cheatsheet|
     * - 11:30-12:00
       - Starting a project with Docker
@@ -432,3 +433,7 @@ policy <http://www.cyverse.org/acknowledge-cite-cyverse>`__
 .. |Google Doc| raw:: html
 
    <a href="https://docs.google.com/document/d/1jjKPzfZ9FDsTJK0PUhERDb5Ctswb9EwMKLpCaQQe6dQ/edit?usp=sharing" target="blank">Google Doc</a>
+
+.. |Reproducibility tutorial| raw:: html
+
+   <a href="https://learning.cyverse.org/projects/cyverse-cyverse-reproducbility-tutorial/en/latest/" target="blank">Reproducibility tutorial</a>
